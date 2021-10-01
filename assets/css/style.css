@@ -1,0 +1,191 @@
+/* Google font link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.half-width {
+  width: 40%;
+  margin: 4%;
+  display: inline-block;
+}
+
+/* Header Section. */
+
+.special-text {
+  color: #dd425c;
+}
+.section-background {
+  background-image: url(assets/images/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bold {
+  font-size: 40px;
+  font-weight: bolder;
+}
+p {
+  font-weight: 700;
+}
+.myImage {
+  float: right;
+}
+
+/* Button Styling. */
+
+.btn {
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #2c2891;
+  font-weight: 600;
+  transition: 0.5s;
+  outline: 2px solid #39a388;
+  outline-offset: 2px;
+  border: 2px solid #2c2891;
+}
+
+.btn:hover {
+  outline-color: #2c2891;
+  border-color: #39a388;
+  color: #39a388;
+  background-image: none;
+}
+
+.center {
+  text-align: center;
+}
+.inline-block {
+  display: inline-block;
+  margin: 20px;
+}
+.center {
+  align-items: center;
+}
+.shadow {
+  box-shadow: 7px 7px 20px black;
+  transition: 1s;
+}
+.h3 {
+  font-weight: 900;
+  font-size: 25px;
+}
+.p {
+  margin-top: -30px;
+}
+.h3width {
+  width: 600px;
+  margin: auto;
+  font-weight: 900;
+  font-family: "Indie Flower", cursive;
+}
+
+.margin-auto {
+  margin: auto;
+}
+.background {
+  background-image: linear-gradient(60deg, #f30c64, #ff0000);
+  color: white;
+  padding: 40px;
+  width: 500px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.background:hover {
+  transform: scale(1.1, 1.1);
+  background-image: linear-gradient(60deg, #ff0000, #f30c64);
+}
+
+/* Backgrounds Images */
+
+.section-background2 {
+  background-image: url(assets/images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section-background3 {
+  background-image: url(assets/images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.section-background4 {
+  background-image: url(assets/images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.half-width2 {
+  float: right;
+  margin-left: 5%;
+  padding-left: 2%;
+  width: 40%;
+  margin-top: 40px;
+}
+
+/* Experience section card design. */
+
+.card {
+  width: 450px;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  padding: 20px;
+  border-image-slice: 1;
+  box-shadow: 8px 8px 50px black;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: translate(0px, -30px);
+}
+.card2 {
+  width: 450px;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, rgb(32, 193, 241), rgb(19, 3, 245));
+  padding: 20px;
+  border-image-slice: 1;
+  box-shadow: 5px 5px 50px black;
+  transition: 0.5s;
+}
+.card2:hover {
+  transform: translate(0px, -30px);
+}
+
+.card h4 {
+  color: rgb(255, 123, 0);
+}
+.card2 h4 {
+  color: rgb(0, 140, 255);
+}
+.hoverEffect {
+  transition: 0.5s;
+}
+.hoverEffect:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* Link style.
+
+/* a:link {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(211, 255, 190);
+  background-color: transparent;
+  text-decoration: underline; 
+} */
+.border {
+  border: 5px solid;
+  border-image: linear-gradient(#ff00d4, #fa2b06);
+  border-image-slice: 100;
+  padding-bottom: 25px;
+  width: 600px;
+  transition: 0.5s;
+}
+.border:hover {
+  transform: scale(1.1, 1.1);
+}
